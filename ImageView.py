@@ -3,14 +3,14 @@ import threading
 from PyQt5.QtCore import Qt, pyqtSlot, QFileInfo, pyqtSignal
 from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtWidgets import QWidget, QFileDialog
-from QCandyUi.CandyWindow import colorful
+# from QCandyUi.CandyWindow import colorful
 
 import Loading
 import sketch
 from ui_frameimageview import Ui_frameImageView
 
 
-@colorful('blue')
+# @colorful('blue')
 class ImageView(QWidget):
     signal_sketch_finished = pyqtSignal(list)
 
